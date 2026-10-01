@@ -1,0 +1,34 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# G-Code and CAD temporary test output files
+*.MIN
+*.SUB
+*.FCStd*
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>OkumaCAM</name>
+  <description>High-performance size-optimized Okuma OSP (OSP7000, OSP-P series) CAM Post-Processor, inscribed volume canned cycles (PMIL/PMILR, FMILR/FMILF, RMILI), and native operations (OkumaContourPocket, OkumaContourSurfacing) for FreeCAD CAM.</description>
+  <version>1.1.0</version>
+  <date>2026-10-01</date>
+  <maintainer email="nathan@lotus-x.com">Nathan Brand</maintainer>
+  <license file="LICENSE">LGPL-2.1-or-later</license>
+  <url type="repository" branch="main">https://github.com/LotusXdev/FreeCAD-OkumaCAM</url>
+  <icon>Gui/Resources/okuma_cam.svg</icon>
+  <content>
+    <workbench>
+      <classname>OkumaCAMWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+    <postprocessor>
+      <name>OkumaOSP_post</name>
+      <file>OkumaOSP_post.py</file>
+    </postprocessor>
+  </content>
+</package>

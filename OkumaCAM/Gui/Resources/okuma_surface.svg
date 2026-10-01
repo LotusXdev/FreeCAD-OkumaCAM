@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="surfBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="surfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Plate -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#surfBgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Planar / 3D Surface Face -->
+  <polygon points="12,24 48,16 54,42 18,48" fill="url(#surfGrad)" stroke="#10b981" stroke-width="1.8"/>
+
+  <!-- Surfacing Zigzag / Sweep Paths -->
+  <line x1="16" y1="26" x2="49" y2="18" stroke="#34d399" stroke-width="1.5"/>
+  <line x1="18" y1="32" x2="51" y2="24" stroke="#34d399" stroke-width="1.5"/>
+  <line x1="19" y1="38" x2="52" y2="30" stroke="#34d399" stroke-width="1.5"/>
+  <line x1="20" y1="44" x2="53" y2="36" stroke="#34d399" stroke-width="1.5"/>
+
+  <!-- Large Face Mill Cutter Representation -->
+  <circle cx="36" cy="30" r="14" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="36" cy="30" r="3" fill="#f59e0b"/>
+
+  <!-- "FMIL" Badge -->
+  <rect x="20" y="48" width="24" height="10" rx="3" fill="#047857" stroke="#34d399" stroke-width="0.8"/>
+  <text x="32" y="55.5" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">FMIL</text>
+</svg>

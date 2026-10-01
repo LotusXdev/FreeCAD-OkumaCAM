@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="pocketBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pocketInscribedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="cutterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Plate -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#pocketBgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Outer Arbitrary / Rounded Pocket Boundary -->
+  <path d="M12 20 C12 14 18 12 28 12 L44 12 C52 12 54 18 54 26 L54 42 C54 50 48 52 38 52 L20 52 C14 52 12 46 12 38 Z"
+        fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+
+  <!-- Inscribed Core Rectangle (PMIL/PMILR) -->
+  <rect x="18" y="18" width="30" height="28" rx="2" fill="url(#pocketInscribedGrad)" stroke="#0ea5e9" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Spiral / Zigzag Pocket Path Inside Inscribed Rectangle -->
+  <path d="M22 22 L44 22 L44 42 L22 42 L22 26 L40 26 L40 38 L26 38 L26 30 L36 30 L36 34"
+        fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Dual Tool Indicator / Endmill -->
+  <circle cx="36" cy="34" r="4" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="36" cy="34" r="1.5" fill="#ffffff"/>
+
+  <!-- "PMIL" Badge -->
+  <rect x="20" y="48" width="24" height="10" rx="3" fill="#0284c7" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="32" y="55.5" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">PMIL</text>
+</svg>
